@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace IntCollections
 {
@@ -6,7 +7,12 @@ namespace IntCollections
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //instanciar as coleções
+            List<int> list = new List<int>();
+            Stack<int> stack = new Stack<int>();
+            Queue<int> q = new Queue<int>();
+            HashSet<int> hash = new HashSet<int>();
+            
         }
     }
 }
